@@ -1,0 +1,2 @@
+patient_id,exam_id,u3_path,u4_path,u5_path,u6_path,u7_path,u8_path,label
+1,1,1.png,2.png,3.png,4.png,5.png,6.png,0

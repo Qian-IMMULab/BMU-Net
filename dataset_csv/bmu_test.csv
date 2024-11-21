@@ -1,0 +1,2 @@
+patient_id,exam_id,m1_path,m2_path,u3_path,u4_path,u5_path,u6_path,u7_path,u8_path,label,clinic_info1,clinic_info2,clinic_info3,clinic_info4,clinic_info5,clinic_info6,clinic_info7,clinic_info8,clinic_info9,clinic_info10,view
+1,1,RCC.png,RMLO.png,1.png,2.png,3.png,4.png,5.png,6.png,0,1,1,1,1,1,1,1,1,1,1,R

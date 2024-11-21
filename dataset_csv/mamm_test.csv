@@ -1,0 +1,2 @@
+patient_id,exam_id,m1_path,m2_path,label,view
+1,1,RCC.png,RMLO.png,0,R

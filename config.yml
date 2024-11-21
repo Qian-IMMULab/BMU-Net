@@ -1,0 +1,47 @@
+trainer:
+  num_workers: 1
+  resume: True
+  optimizer: adamw
+  weight_decay: 0.1
+  warmup: 2
+mg:
+  num_epochs: 60
+  batch_size: 32
+  lr: 0.0001
+  image_h: 2294
+  image_w: 1280
+  img_mean: [5234.68]
+  img_std: [9211.48]
+  train_data_dir: 'train.csv'
+  val_data_dir: 'val.csv'
+  stats_data_dir: 'stats.csv'
+  pre_trained_model: 'mirai_model/snapshots/mgh_mammo_MIRAI_Base_May20_2019.p'
+  save_dir: output
+  gradient_accumulation_steps: 4
+
+us:
+  num_epochs: 55
+  batch_size: 32
+  lr: 0.0001
+  image_size: 224
+  train_data_dir: 'train.csv'
+  val_data_dir: 'val.csv'
+  save_dir: output
+
+bmu:
+  num_epochs: 100
+  batch_size: 32
+  lr: 0.0001
+  mg_image_h: 2294
+  mg_image_w: 1280
+  img_mean: [5063.68]
+  img_std: [8773.89]
+  us_image_size : 224
+  train_ratio: 0.8
+  mg_model: 'mg_model.bin'
+  us_model: 'us_model.bin'
+  train_data_dir: 'train.csv'
+  val_data_dir: 'val.csv'
+  split: random_split
+  save_dir: output
+
