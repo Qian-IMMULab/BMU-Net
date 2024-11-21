@@ -1,4 +1,4 @@
-# BMUNet: A PyTorch Implementation
+# BMU-Net**: A PyTorch Implementation**
 
 This is a PyTorch/GPU implementation of the paper "A multimodal machine learning model for the stratification of breast cancer risk".
 
@@ -16,16 +16,16 @@ pip install -r requirements.txt
 
 ### Input images
 
-Mammography module:  two mammography images(paired CC and MLO views)
+Mammography module:  two mammography images (paired CC and MLO views)
 
-Ultrasound module: six ultrasound images (including transverse and sagittal views of B-mode, colour Doppler and elastography images)
+Ultrasound module: six ultrasound images (including transverse and longitudinal views of B-mode, colour Doppler and elastography images)
 
-Bmunet model: two mammography images,  six ultrasound images and clinical metadata
+BMU-Net model: unimodal, bimodal, multimodal inputs
 
-### Inference
+## Inference
 
 1. Download models from the latest release 
-2. Make a csv file with own data to test-path(example as `dataset_csv/mamm_test.csv`)
+2. Make a csv file with own data to test-path (example as `dataset_csv/mamm_test.csv`)
 
 ```python
 # Mamm module
