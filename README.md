@@ -1,4 +1,4 @@
-# BMUNet**: A PyTorch Implementation**
+# BMUNet: A PyTorch Implementation
 
 This is a PyTorch/GPU implementation of the paper "A multimodal machine learning model for the stratification of breast cancer risk".
 
