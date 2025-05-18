@@ -1,8 +1,7 @@
 # BMU-Net: A PyTorch Implementation
 
-This is a PyTorch/GPU implementation of the paper "A multimodal machine learning model for the stratification of breast cancer risk".
-
-People who use this code must cite the paper: “A multimodal machine learning model for the stratification of breast cancer risk”. Nature Biomedical Engineering, 9(3), 356-370. (2025)
+This is a PyTorch/GPU implementation of the BMU-Net, and people who use this code must cite the reference paper: 
+“A multimodal machine learning model for the stratification of breast cancer risk”. Nature Biomedical Engineering, 9(3), 356-370. (2025)
 
 ## Install
 
